@@ -1,18 +1,21 @@
-"use strict"
-console.log(5 + 3);  // Addition: Output: 8
-console.log(5 - 3);  // Subtraction: Output: 2
-console.log(5 * 3);  // Multiplication: Output: 15
-console.log(5 / 3);  // Division: Output: 1.666...
-console.log(5 % 3);  // Modulus: Output: 2 (remainder of 5 divided by 3)
+"use strict";
 
-let num = 5;
-console.log(num++);  // Increment: Output: 5 (first prints 5, then increments it)
-console.log(num);    // After increment: Output: 6
+// console.log(10 + 5);       // Test addition
+// console.log(15 - 5);       // Test subtraction
+// console.log(3 * 4);        // Test multiplication
+// console.log(10 / 2);       // Test division
+// console.log(7 % 3);        // Test modulus (remainder)
 
-let num2 = 3;
-console.log(num2--); // Decrement: Output: 3 (first prints 3, then decrements it)
-console.log(num2);   // After decrement: Output: 2
+// console.log(5 == 5);       // Test equality (value comparison)
+// console.log(5 === '5');    // Test strict equality (value + type comparison)
+// console.log(5 != 6);       // Test inequality
+// console.log(5 > 4);        // Test greater than
+// console.log(5 <= 5);       // Test less than or equal
 
-console.log(true && false);  // AND: Output: false
-console.log(true || false);  // OR: Output: true
-console.log(!true);          // NOT: Output: false
+// console.log(true && false);   // Test logical AND
+// console.log(true || false);   // Test logical OR
+// console.log(!true);           // Test logical NOT
+
+// console.log(5 + 3 * 2);   // Combination of addition and multiplication (check precedence)
+// console.log(10 - (3 + 2)); // Parentheses affecting precedence
+// console.log(0 == false);   // Test equality with different data types (number vs boolean)
