@@ -3,39 +3,39 @@
 // Declaring constant variables to store references to the elements
 // that will be updated by your code.
 const hardestChoreElement = document.getElementById("hardest-chore");
-const easiestChoreElement = document.getElementById("easiest-chore")
-const choreLengthElement = document.getElementById("chore-length")
-const submissionBtn = document.getElementById("submission-btn")
+const easiestChoreElement = document.getElementById("easiest-chore");
+const choreLengthElement = document.getElementById("chore-length");
+const submissionBtn = document.getElementById("submission-btn");
 
-const chores = ["Clean the gutters", "taking a poop", "Dishes"]
-const choreLength = chores.length
-let hardestChore = chores[1]
-let easiestChore = chores[2]
+// Array to store chores
+const chores = ["Clean the gutters", "Taking a poop", "Dishes"];
+const choreLength = chores.length; // The total number of chores
+let hardestChore = chores[0]; // Set the hardest chore (could be updated)
+let easiestChore = chores[2]; // Set the easiest chore (could be updated)
 
-// Declare your variables here.
-
+// Function to update the hardest chore on the webpage
 function updateHardestChore() {
-    // write the logic
     hardestChoreElement.innerText = hardestChore;
 }
 
+// Function to update the easiest chore on the webpage
 function updateEasiestChore() {
-    // Update this function 
     easiestChoreElement.innerText = easiestChore;
 }
 
+// Function to update the number of chores
 function updateChoreLength() {
-    // Finish writing this function
     choreLengthElement.innerText = choreLength;
 }
 
+// Function to render the changes to the webpage
 function render() {
     updateChoreLength();
     updateEasiestChore();
     updateHardestChore();
 }
 
+// Event listener for the submission button to call the render function
 submissionBtn.addEventListener("click", function () {
-    // Finish writing this function
-    render();
-})
+    render(); // Update all the chore details when the button is clicked
+});
