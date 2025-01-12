@@ -1,0 +1,11 @@
+1. Number + String Explanation: 
+The explanation for type coercion and why it returns a string when adding a number to a string is clear.
+
+2. Using == and Potential Bugs: 
+The explanation of how == can lead to bugs due to type coercion is accurate, and the example clearly shows the issue.
+
+3. Confusing Operator: 
+Your example with == showing how it compares different data types (with coercion) is well-explained.
+
+4. Using the Modulus Operator: 
+The explanation of the Modulus operator's purpose and a relevant example (even/odd check) is clear and concise.

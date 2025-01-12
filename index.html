@@ -1,116 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Introduction to JS: Operators</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="/" class="link">Concept</a></li>
-                <li class="nav-item"><a href="./assignment.html" class="link">Assignment</a></li>
-            </ul>
-        </nav>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="/" class="link">Concept</a></li>
+          <li class="nav-item">
+            <a href="./assignment.html" class="link">Assignment</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    
+
     <main class="main">
-        
-        <section class="concept">
-            <h2 class="title">Concept: Operators</h2>
-            <p class="definition">In this project, we will be working with operators. I will not dive deep into the concept with a scenario. As developers, you will need to read documentation on various technologies you use. I highly recommend <a class="text-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators">reading the documentation linked</a>. You will not understand it all, but do make an effort to understand as much as you can.
-            </p>
+      <section class="concept">
+        <h2 class="title">Concept: Operators</h2>
+        <p class="definition">
+          In this project, we will be working with operators. I will not dive
+          deep into the concept with a scenario. As developers, you will need to
+          read documentation on various technologies you use. I highly recommend
+          <a
+            class="text-link"
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators"
+          >
+            reading the documentation linked </a
+          >. You will not understand it all, but do make an effort to understand
+          as much as you can.
+        </p>
 
-            <h3 class="sub-title">What are Operators?</h3>
-            <p class="definition">What are operators, you say? Simply put, they are symbols that perform operations on values and variables. There are many types of operators. You’ve already seen some operators already. For example, the <code class="inline-code">=</code> used to assign a value to a variable is an operator. That operator is one of several Assignment operators. Another operator you’ve encountered is the <code class="inline-code">typeof</code> operator.</p>
+        <h3 class="sub-title">What are Operators?</h3>
+        <p class="definition">
+          Simply put, they are symbols that perform operations on values and
+          variables. There are many types of operators. You've already seen some
+          operators. For example, the
+          <code class="inline-code">=</code> used to assign a value to a
+          variable is an operator. That operator is one of several Assignment
+          operators. Another operator you've encountered is the
+          <code class="inline-code">typeof</code> operator.
+        </p>
 
-            <p class="definition">Here is a short list of the types of operators that exist in JavaScript:</p>
+        <p class="definition">
+          Here is a short list of the types of operators that exist in
+          JavaScript:
+        </p>
 
-            <h3 class="sub-title">Arithmetic Operators</h3>
-            <ul class="list">
-                <li class="list-item"><code class="inline-code">+</code> Addition</li>
-                <li class="list-item"><code class="inline-code">-</code> Subtraction</li>
-                <li class="list-item"><code class="inline-code">*</code> Multiplication</li>
-                <li class="list-item"><code class="inline-code">/</code> Division</li>
-                <li class="list-item"><code class="inline-code">%</code> Modulus</li>
-                <li class="list-item"><code class="inline-code">++</code> Increment</li>
-                <li class="list-item"><code class="inline-code">--</code> Decrement</li>
-            </ul>
+        <h3 class="sub-title">Arithmetic Operators</h3>
+        <ul class="list">
+          <li class="list-item"><code class="inline-code">+</code> Addition</li>
+          <li class="list-item">
+            <code class="inline-code">-</code> Subtraction
+          </li>
+          <li class="list-item">
+            <code class="inline-code">*</code> Multiplication
+          </li>
+          <li class="list-item"><code class="inline-code">/</code> Division</li>
+          <li class="list-item"><code class="inline-code">%</code> Modulus</li>
+          <li class="list-item">
+            <code class="inline-code">++</code> Increment
+          </li>
+          <li class="list-item">
+            <code class="inline-code">--</code> Decrement
+          </li>
+        </ul>
 
-            <h3 class="sub-title">Assignment Operators</h3>
-            <ul class="list">
-                <li class="list-item"><code class="inline-code">=</code> Assignment</li>
-                <li class="list-item"><code class="inline-code">+=</code> Add and Assign</li>
-                <li class="list-item"><code class="inline-code">-=</code> Subtract and Assign</li>
-                <li class="list-item"><code class="inline-code">*=</code> Multiply and Assign</li>
-                <li class="list-item"><code class="inline-code">/=</code> Divide and Assign</li>
-            </ul>
+        <h3 class="sub-title">Assignment Operators</h3>
+        <ul class="list">
+          <li class="list-item">
+            <code class="inline-code">=</code> Assignment
+          </li>
+          <li class="list-item">
+            <code class="inline-code">+=</code> Add and Assign
+          </li>
+          <li class="list-item">
+            <code class="inline-code">-=</code> Subtract and Assign
+          </li>
+          <li class="list-item">
+            <code class="inline-code">*=</code> Multiply and Assign
+          </li>
+          <li class="list-item">
+            <code class="inline-code">/=</code> Divide and Assign
+          </li>
+        </ul>
 
-            <h3 class="sub-title">Comparison Operators</h3>
-            <ul class="list">
-                <li class="list-item"><code class="inline-code">=</code> Equal to (evalutes value only)</li>
-                <li class="list-item"><code class="inline-code">==</code> Strict Equal To (evaluates both the data type and value)</li>
-                <li class="list-item"><code class="inline-code">!=</code> Not Equal to (evaluates value only)</li>
-                <li class="list-item"><code class="inline-code">!==</code> Not Equal To (evaluates both the data type and value)</li>
-                <li class="list-item"><code class="inline-code">></code> Greater Than</li>
-                <li class="list-item"><code class="inline-code"><</code> Less Than</li>
-                <li class="list-item"><code class="inline-code">>=</code> Greater Than or Equal To</li>
-                <li class="list-item"><code class="inline-code"><=</code> Less Than or Equal To</li>
-            </ul>
+        <h3 class="sub-title">Comparison Operators</h3>
+        <ul class="list">
+          <li class="list-item">
+            <code class="inline-code">=</code> Equal to (evaluates value only)
+          </li>
+          <li class="list-item">
+            <code class="inline-code">==</code> Strict Equal To (evaluates both
+            data type and value)
+          </li>
+          <li class="list-item">
+            <code class="inline-code">!=</code> Not Equal to (evaluates value
+            only)
+          </li>
+          <li class="list-item">
+            <code class="inline-code">!==</code> Not Equal To (evaluates both
+            data type and value)
+          </li>
+          <li class="list-item">
+            <code class="inline-code">></code> Greater Than
+          </li>
+          <li class="list-item">
+            <code class="inline-code"><</code> Less Than
+          </li>
+          <li class="list-item">
+            <code class="inline-code">>=</code> Greater Than or Equal To
+          </li>
+          <li class="list-item">
+            <code class="inline-code"><=</code> Less Than or Equal To
+          </li>
+        </ul>
 
-            <h3 class="sub-title">Logical Operators</h3>
-            <ul class="list">
-                <li class="list-item"><code class="inline-code">&&</code> And</li>
-                <li class="list-item"><code class="inline-code">||</code> Or</li>
-                <li class="list-item"><code class="inline-code">!</code> Not</li>
-            </ul>
+        <h3 class="sub-title">Logical Operators</h3>
+        <ul class="list">
+          <li class="list-item"><code class="inline-code">&&</code> And</li>
+          <li class="list-item"><code class="inline-code">||</code> Or</li>
+          <li class="list-item"><code class="inline-code">!</code> Not</li>
+        </ul>
 
-            <p class="definition">This list contains the operators you will use most, but there are more. Refer to the MDN documentation to learn more.</p>
+        <p class="definition">
+          This list contains the operators you will use most, but there are
+          more. Refer to the MDN documentation to learn more.
+        </p>
 
-            <p class="definition">Before you continue with the experiments, I’ll demonstrate how some of these operators are used.</p>
+        <p class="definition">
+          Before you continue with the experiments, I’ll demonstrate how some of
+          these operators are used.
+        </p>
 
+        <pre class="block-code">
+console.log(1 + 1);         // Output: 2
+console.log(1 - 1);         // Output: 0
+console.log(1 + "1");       // Output: 11
+                           // What? Why? Search for the answer
 
-<code class="block-code">console.log(1 + 1);         // Output: 2
-console.log(1 - 1);          // Output: 0
-console.log(1 + "1");        // Output: 11
-                             // What? Why? Search for the answer
+console.log(3 - 4 * 5);     // Output: -17
+console.log((3 - 4) * 5);   // Output: -5
+                           // Remember order of precedence
 
-console.log(3 - 4 * 5)       // Output: -17
-console.log((3 - 4) * 5);    // Output: -5
-                             // Remember order of precendence
+console.log(6 / 5);         // Output: 1.2
+console.log(6 % 5);         // Output: 1
+                           // Modulus returns the remainder. This operator is extremely useful.
 
-console.log(6 / 5);          // Output: 1.2
-console.log(6 % 5);          // Output: 1
-                             // Modulus return the remainder. This operator is extremely useful.
+console.log(1 == 1);        // Output: true
+console.log(1 == "1");      // Output: true
+console.log(1 === "1");     // Output: false
 
-console.log(1 == 1);         // Output: true
-console.log(1 == "1");       // Output: true
-console.log(1 === "1");      // Output: false
+console.log(1 || 2);        // Output: 1
+console.log(2 || 1);        // Output: 2
+console.log(1 && 2);        // Output: false
+console.log(1 && 1);        // Output: true
+            </pre
+        >
 
-console.log(1 || 2);         // Output: 1
-console.log(2 || 1);         // Output: 2
-console.log(1 && 2);         // Output: false
-console.log(1 && 1);         // Output: true
-</code>
+        <h3 class="sub-title">Experiment Time</h3>
+        <p class="definition">
+          As part of this exercise and your continued growth, I will leave it up
+          to you to decide what you should experiment with. As developers, you
+          need to be curious. The code block above can help kickstart your
+          curiosity and generate questions.
+        </p>
 
-
-            <h3 class="sub-title">Experiment Time</h3>
-            
-            <p class="definition">As part of this exercise and your continued growth, I will leave it up to you to decide what you should experiment with. As developers, you need to be curious. The code block above can help kickstart your curiosity and generate questions.
-            </p>
-
-            <p class="definition">Once you are done experimenting, comment out your code.</p>
-        </section>
-
-        
+        <p class="definition">
+          Once you are done experimenting, comment out your code.
+        </p>
+      </section>
     </main>
 
     <footer>
+      <!-- Add any footer content here -->
     </footer>
 
-    <!-- include the script at the end of the body -->
     <script src="./js/index.js"></script>
-</body>
+  </body>
 </html>
